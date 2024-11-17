@@ -9,7 +9,7 @@ int main(){
         if (i+j>=n+1) {
             cout<<"*";
         }
-        else{
+        else if(i+j < n+1) {
             cout<<"-";
         }
     }
